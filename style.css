@@ -1,0 +1,775 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+   
+}
+
+.navbar{
+    display: flex;
+     background-color: rgb(0, 15, 60);
+     width: 100vw;
+     height: 75px;
+     position: sticky;
+}
+
+.ancar1{
+  text-decoration: none;
+  font-size: 1.5rem;
+  color: white;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.telnor{
+    border-radius: 4px;
+    width: 47px;
+    height: 45px;
+    position: absolute;
+    left: 620px;
+    top: 15px;
+    animation: parsatGE 4s ;
+    
+}
+
+@keyframes parsatGE {
+
+
+ 25%{
+    position: absolute;
+    left: 80%;
+     transform: scale(120%);
+  
+ }
+
+ 50%{
+       position: absolute;
+    left: 10%;
+    /* ft: 80%; */
+     transform: scale(120%);
+  
+ }
+
+ 75%{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: rotate(360deg) scale(70%);
+    border-radius: 50%;
+ }
+
+
+}
+
+.ancar2{
+      text-decoration: none;
+  font-size: 1.5rem;
+  color: white;
+  margin-left: 85%;
+  margin-top: 20px;
+}
+
+.nav2{
+     display: flex;
+     background-color: rgb(0, 15, 60);
+     width: 100vw;
+     height: 64px;
+      justify-content: center;
+    align-items: center;
+        position: sticky;
+   
+}
+
+.ancar{
+    color: white;
+    text-decoration: none;
+    font-size: 1.1rem;
+    justify-content: center;
+    align-items: center;
+   padding: 25px;
+
+}
+
+.ancar:hover{
+    text-decoration: underline;
+}
+
+.bannerimag{
+    width: 100vw;
+    height: 500px;
+}
+
+.heading{
+    font-size: 1.5rem;
+    margin-top: 66px;
+    margin-left: 22px;
+    color: rgb(39, 38, 38);
+}
+
+.imag3{
+    width: 150px;
+    height: 150px;
+    margin-left: 22px;
+    margin-top: 30px;
+}
+
+.parra1{
+    font-size: 0.8rem;
+    margin-left: 190px;
+    margin-top: -148px;
+}
+
+.heading1{
+    font-size: 1.6rem;
+    font-weight: lighter;
+ position: absolute;
+  top: 800px;
+ left: 187px;
+
+}
+
+.Screenshot4{
+    display: inline;
+    position: absolute;
+    left: 625px;
+    top: 763px;
+     width: 170px;
+    height: 150px;
+
+}
+
+
+
+.parra4{
+     font-size: 0.8rem;
+    margin-left: 830px;
+    margin-top: -20px;
+}
+
+.heading2{
+        font-size: 1.6rem;
+    font-weight: lighter;
+ position: absolute;
+  top: 800px;
+ left: 829px;
+}
+
+.news{
+      font-size: 1.5rem;
+      color: rgb(36, 33, 33);
+    font-weight: bolder;
+ position: absolute;
+top: 970px;
+left: 20px;
+
+ 
+}
+
+.imag5{
+    position: absolute;
+    top: 1030px;
+    left: 20px;
+    width: 360px;
+    height: 200px;
+}
+
+.heading3{
+font-size: 1.5rem;
+position: absolute;
+top: 1270px;
+left: 20px;
+color: rgb(49, 48, 48);
+}
+
+.parra5{
+    display: inline;
+    position: absolute;
+    top: 1314px;
+    left: 20px;
+    font-size: 1rem;
+}
+
+.imag6{
+        position: absolute;
+    top: 1030px;
+    left: 420px;
+    width: 360px;
+    height: 200px;
+}
+
+.headin4{
+  
+    font-size: 1.5rem;
+position: absolute;
+top: 1270px;
+left: 420px;
+color: rgb(49, 48, 48);
+
+}
+
+.parra6{
+        display: inline;
+    position: absolute;
+    top: 1314px;
+    left: 420px;
+    font-size: 1rem;
+}
+
+.imag7{
+            position: absolute;
+    top: 1030px;
+    left: 820px;
+    width: 360px;
+    height: 200px;
+}
+
+.heading5{
+        font-size: 1.5rem;
+position: absolute;
+top: 1270px;
+left: 820px;
+color: rgb(49, 48, 48);
+}
+
+.parra7{
+       display: inline;
+    position: absolute;
+  top: 1314px;
+   left: 820px;
+    font-size: 1rem;
+}
+
+.imag8{
+    position: absolute;
+    top: 1460px;
+    left: 20px;
+    width: 360px;
+    height: 200px;  
+}
+
+.heading6{
+ font-size: 1.5rem;
+position: absolute;
+top: 1700px;
+left: 20px;
+color: rgb(49, 48, 48);
+}
+
+.parra8{
+   display: inline;
+    position: absolute;
+  top: 1800px;
+   left: 20px;
+    font-size: 1rem;
+}
+
+.imag9{
+    position: absolute;
+    top: 1460px;
+    left: 415px;
+    width: 360px;
+    height: 200px;
+}
+
+.heading7{
+font-size: 1.5rem;
+position: absolute;
+top: 1700px;
+ left: 417px;
+color: rgb(49, 48, 48);
+}
+
+.parra9{
+    position: absolute;
+    top: 1800px;
+    left: 420px;
+}
+
+.imag10{
+        position: absolute;
+    top: 1460px;
+    left: 820px;
+    width: 360px;
+    height: 200px; 
+}
+
+.heading8{
+    font-size: 1.5rem;
+position: absolute;
+top: 1700px;
+ left: 820px;
+color: rgb(49, 48, 48);
+}
+
+.parra11{
+     position: absolute;
+    top: 1800px;
+    left: 820px;
+}
+
+.biheadinhg{
+font-size: 2.6rem;
+font-weight: lighter;
+position: absolute;
+top: 1960px;
+ left: 20px;
+color: rgb(49, 48, 48);
+}
+
+.upcoming{
+    text-decoration: none;
+    font-size: 1.3rem;
+    position: absolute;
+    top: 2050px;
+    left: 20px;
+    color: black;
+}
+
+.upcoming:hover{
+ text-decoration: underline 2px solid rgb(35, 24, 149);
+color: black;
+}
+
+.province{
+    text-decoration: none;
+    font-size: 1.3rem;
+    position: absolute;
+    top: 2050px;
+    left: 150px;
+    color: rgb(85, 72, 72);
+    transition: all;
+    transition-duration: 1s;
+}
+
+.province:hover{
+text-decoration: underline 2px solid rgb(35, 24, 149);
+color: black;
+}
+
+.time1{
+    position: absolute;
+    top: 2120px;
+    left: 20px;
+    font-size: 1.3rem;
+    display: inline;
+}
+
+.timeparra{
+    position: absolute;
+    top: 2120px;
+    left: 270px;
+    font-size: 1.4rem;
+    display: inline;
+    
+}
+
+.time2{
+        position: absolute;
+    top: 2230px;
+    left: 20px;
+    font-size: 1.3rem;
+    display: inline;
+}
+
+.timeparra1{
+    display: inline;
+    position: absolute;
+    top: 2230px;
+    left: 270px;
+    font-size: 1.4rem;
+}
+
+.time3{
+        position: absolute;
+    top: 2330px;
+    left: 20px;
+    font-size: 1.3rem;
+    display: inline;
+}
+
+.timeparra3{
+      display: inline;
+    position: absolute;
+    top: 2330px;
+    left: 270px;
+    font-size: 1.4rem;
+}
+
+.time4{
+            position: absolute;
+    top: 2430px;
+    left: 20px;
+    font-size: 1.3rem;
+    display: inline;
+}
+
+.timeparra4{
+       display: inline;
+    position: absolute;
+    top: 2430px;
+    left: 270px;
+    font-size: 1.4rem;
+}
+
+.newbox{
+    position: absolute;
+    top: 2610px;
+
+    width: 99%;
+    border-radius: 14px;
+    height: 500px;
+    background-color: #E8FDFF
+}
+
+.newhead{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+    font-size: 1.8rem;
+}
+
+.screenstort1{
+    width: 150px;
+    height: 100px;
+    position: absolute;
+    top: 200px;
+    left: 50px;
+}
+
+.imaghead1{
+    position: absolute;
+    top: 330px;
+    left: 50px;
+    font-size: 1.30rem;
+}
+
+.imagparra{
+    position: absolute;
+    top: 375px;
+    left: 50px;
+}
+
+.screenstort2{
+        width: 150px;
+    height: 100px;
+    position: absolute;
+    top: 200px;
+    left: 478px;
+}
+
+.imaghead2{
+      position: absolute;
+    top: 330px;
+     left: 478px;
+    font-size: 1.30rem;
+}
+
+.imagparra2{
+        position: absolute;
+      left: 478px;
+        top: 375px;
+}
+
+.imagparra3{
+         position: absolute;
+      left: 478px;
+        top: 410px
+}
+
+.screenstort3{
+    width: 150px;
+    height: 100px;
+    position: absolute;
+    top: 200px;
+    left: 910px;
+}
+
+.imaghead3{
+     position: absolute;
+    top: 330px;
+     left: 910px;
+    font-size: 1.30rem;
+}
+
+.imagparra4{
+           position: absolute;
+      left: 900px;
+        top: 375px
+}
+
+.imagparra5{
+        position: absolute;
+      left: 900px;
+        top: 410px
+}
+
+.access{
+    text-decoration: none;
+    position: absolute;
+    top: 460px;
+    left: 50px;
+    font-size: 1.2rem;
+    transition: all;
+    transition-duration: 2s;
+}
+
+.access:hover{
+    text-decoration: underline 2px solid blue;
+}
+
+.update{
+     text-decoration: none;
+    position: absolute;
+    top: 460px;
+    left: 475px;
+    font-size: 1.2rem;
+    transition: all;
+    transition-duration: 2s;
+    color: blue;
+}
+
+.update:hover{
+ text-decoration: underline 2px solid blue;
+}
+
+.Exparol{
+    position: absolute;
+    top: 460px;
+    left: 900px;
+    font-size: 1.2rem;
+    transition: all;
+    transition-duration: 2s;
+    color: blue;
+    text-decoration: none;
+}
+
+.Exparol:hover{
+    text-decoration: underline 2px solid blue;
+}
+
+.footerbox{
+    position: absolute;
+    top: 3250px;
+    width: 100vw;
+    height: 700px;
+    background-color: #000F3C;
+    border-radius: 4px;
+}
+
+.parrafoot{
+    display: inline;
+    font-size: 1.4rem;
+    position: absolute;
+    top: 150px;
+    left: 50px;
+    color: white;
+}
+
+.parrafoot1{
+    display: inline;
+    position: absolute;
+    top: 205px;
+    left: 50px;
+    color: white;
+}
+
+.parrafoot2{
+        display: inline;
+    position: absolute;
+    top: 246px;
+    left: 50px;
+    color: white;
+}
+
+.parrafoot4{
+      display: inline;
+    font-size: 1.4rem;
+    position: absolute;
+    top: 150px;
+    left: 290px;
+    color: white;
+}
+
+.parrafoot5{
+    display: inline;
+    position: absolute;
+    top: 206px;
+    left: 284px;
+    color: white;
+}
+
+.parrafoot6{
+    display: inline;
+    position: absolute;
+    top: 245px;
+    left: 284px;
+    color: white;
+}
+
+.parrafoot7{
+       display: inline;
+    position: absolute;
+    top: 285px;
+    left: 284px;
+    color: white;
+}
+
+.parrafoot8{
+          display: inline;
+    position: absolute;
+    top: 325px;
+    left: 284px;
+    color: white;
+}
+
+
+.parrafoot9{
+    display: inline;
+    font-size: 1.4rem;
+    position: absolute;
+    top: 150px;
+    left: 500px;
+    color: white;
+}
+
+.parrafoot10{
+    display: inline;
+    position: absolute;
+    top: 206px;
+    left: 495px;
+    color: white;
+}
+
+.parrafoot11{
+        display: inline;
+    position: absolute;
+    top: 245px;
+    left: 495px;
+    color: white;
+}
+
+.parrafoot12{
+     display: inline;
+    position: absolute;
+    top: 285px;
+    left: 495px;
+    color: white;
+}
+
+.parrafoot13{
+    display: inline;
+    font-size: 1.4rem;
+    position: absolute;
+    top: 150px;
+    left: 700px;
+    color: white;
+}
+
+.parrafoots14{
+     display: inline;
+    position: absolute;
+    top: 205px;
+    left: 695px;
+    color: white;
+}
+
+.parrafoot15{
+         display: inline;
+    position: absolute;
+    top: 245px;
+    left: 695px;
+    color: white;
+}
+
+.parrafoot16{
+    font-size: 1.4rem;
+    position: absolute;
+    top: 150px;
+    left: 900px;
+    color: white;
+}
+
+.parrafoot17{
+display: inline;
+    position: absolute;
+    top: 205px;
+    left: 900px;
+    color: white;
+}
+
+.parrafoot18{
+    display: inline;
+    position: absolute;
+    top: 245px;
+    left: 900px;
+    color: white;
+}
+
+.parrafoot19{
+     display: inline;
+    position: absolute;
+    top: 285px;
+    left: 900px;
+    color: white
+}
+
+.parrafoot20{
+      font-size: 1.5rem;
+    display: inline;
+    position: absolute;
+    top: 485px;
+    left: 50px;
+    color: white
+  
+}
+
+.parrafoot20:hover{
+    text-decoration: underline 2px solid white;
+}
+
+.parrafoot21{
+    font-size: 1.3rem;
+    display: inline;
+    position: absolute;
+    top: 485px;
+    left: 1000px;
+    color: white
+}
+
+.parrafoot21:hover{
+     text-decoration: underline 2px solid white;
+}
+
+.parrafoot22{
+      font-size: 1rem;
+    display: inline;
+    position: absolute;
+    top: 526px;
+    left: 1000px;
+    color: white
+}
+
+.parrafoot22:hover{
+    text-decoration: underline 2px solid white;
+}
+
+.parrafoot23{
+      font-size: 2.5rem;
+      font-weight: lighter;
+    display: inline;
+    position: absolute;
+    top: 626px;
+    left: 50px;
+    color: white
+}
+
+.imagtel{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 40px;
+    left: 35px;
+    border-radius: 8px;
+}
